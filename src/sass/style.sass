@@ -1,0 +1,301 @@
+*
+  font-family: Roboto, sans-serif
+
+header
+  position: relative
+
+.header__block
+  position: fixed
+  width: 100%
+  z-index: 10
+
+nav
+  height: 50px
+  background-color: #212121
+
+.subheader
+  height: 87px
+  background-color: rgba(0, 0, 0, 0.6)
+  position: absolute
+  width: 100%
+
+.menu
+  padding: 12px 70px
+  margin: 0
+  list-style-type: none
+  display: flex
+  justify-content: space-between
+
+  .menu__link
+    color: #FFFFFF
+    font-weight: 300
+    font-size: 15px
+    line-height: 15px
+    text-decoration: none
+
+  .menu__item
+    border-right: 2px dotted black
+    padding-right: 45px
+
+.subheader
+  .subheader__logo
+    display: block
+    max-width: 100%
+
+  .subheader__official
+    color: #FFFFFF
+    font-weight: 200
+    opacity: 0.5
+    font-size: 13px
+    margin-top: 6px
+
+  .subheader__phone
+    color: #FFFFFF
+    font-weight: 200
+    font-size: 12px
+    text-align: right
+
+  .subheader__number
+    display: block
+    color: #FFFFFF
+    font-size: 22px
+    text-align: right
+
+  .subheader__block
+    padding: 16px 0
+
+  .subheader__btn
+    width: 100%
+    height: 90%
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 4px
+    border: none
+    color: #FFFFFF
+    font-size: 14px
+    text-align: center
+    text-transform: uppercase
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+
+.promo
+  min-height: 800px
+  background: url('../images/uber_bg.png') center (center / cover) no-repeat
+  padding: 151px 0 186px 0
+
+  .promo__header
+    color: #FFFFFF
+    font-weight: 900
+    font-size: 60px
+    text-align: center
+    text-transform: uppercase
+
+  .promo__subheader
+    color: #FFFFFF
+    font-weight: 500
+    font-size: 36px
+    text-align: center
+    text-transform: uppercase
+
+  .promo__descr
+    margin-top: 16px
+    color: #FFFFFF
+    font-size: 18px
+    font-weight: 300
+    text-align: center
+
+  .promo__btn
+    display: block
+    width: 259px
+    height: 63px
+    margin: 0 auto
+    margin-top: 115px
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 4px
+    color: #FFFFFF
+    font-size: 18px
+    line-height: 63px
+    text-align: center
+    text-transform: uppercase
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+    border: none
+
+/*
+ *.promo .promo__block {
+ *    margin-top: 67px;
+ *}
+
+.work__reasons
+  .reason__item
+    list-style-type: none
+    margin-top: 60px
+    max-height: 116px
+
+  .reason__img__elipse
+    display: flex
+    width: 126px
+    height: 126px
+    border-radius: 100%
+    background: #1EACC7
+    justify-content: center
+    align-items: center
+    float: left
+
+.test
+  margin-left: 25px
+
+.work__reasons
+  .reason__subheader
+    color: #1EACC7
+    display: inline-block
+    margin-left: 25px
+    font-size: 17px
+
+  .reason__descr
+    color: #202020
+    display: inline-block
+    margin-left: 25px
+    font-weight: 300
+    font-size: 15px
+
+  .work__reason__header
+    color: #222222
+    font-weight: 700
+    font-size: 38px
+    text-transform: uppercase
+    text-align: center
+    margin-top: 77px
+
+.title
+  color: #222222
+  font-weight: bold
+  font-size: 38px
+  text-align: center
+  text-transform: uppercase
+  margin-top: 33px
+
+.subtitle
+  color: #222222
+  font-size: 17px
+  text-align: center
+
+.mobile
+  .row
+    margin-top: 30px
+
+.capabilities__block
+  background: #000000
+  width: 115px
+  height: 27px
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 0 auto
+  span 
+    font-size: 11px
+    align-items: center
+    text-transform: uppercase
+    color: #FFFFFF
+
+.mobile
+  min-height: 864px
+  padding: 0,0,79px 0
+  background: url('../images/mobile_bg.png') center (center / cover) no-repeat
+  &__item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 0 auto
+    margin-bottom: 20px
+    padding-top: 92px
+    &__1 
+      background: url('../images/mobile_screen_1.png') center (center / cover) no-repeat
+    &__2
+      background: url('../images/mobile_screen_2.png') center (center / cover) no-repeat
+    &__3 
+      background: url('../images/mobile_screen_3.png') center (center / cover) no-repeat
+    &__4 
+      background: url('../images/mobile_screen_4.png') center (center / cover) no-repeat
+    &__5 
+      background: url('../images/mobile_screen_5.png') center (center / cover) no-repeat
+    &__6 
+      background: url('../images/mobile_screen_6.png') center (center / cover) no-repeat
+    &__subtitle
+      color: #FFFFFF
+      font-size: 24px
+      font-weight: 400
+      text-align: center
+      text-transform: uppercase
+    &__plus
+      position: absolute
+      display: flex 
+      justify-content: center
+      align-items: center
+      width: 29px
+      height: 29px
+      background: #000000;
+      margin: 0 auto
+      border-radius: 100%
+      padding: 6px
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      cursor: pointer
+
+.uber__choose
+  position: relative
+  .black__bg
+    padding-top: 60px
+    width: 100%
+    min-height: 500px
+    background-color: #000000
+  
+  .white__bg
+    width: 100%
+    height: 397px
+    background: url('../images/mobile_bg.png') center (center / cover) no-repeat
+    padding-top: 210px
+
+  .capabilities__block
+    background-color: #FFFFFF
+    span
+      color: #000000
+
+  &__title
+    color: #FFFFFF
+    font-weight: 700
+    font-size: 38px
+    text-align: center
+    text-transform: uppercase
+    margin-top: 27px
+    margin-bottom: 0
+
+  &__subtitle
+    color: #FFFFFF
+    font-size: 17px
+    text-align: center
+    margin-top: 1px
+  
+  &__subtitle__2
+    color: #222222
+    font-weight: 300
+    font-size: 17px
+    text-align: center
+
+  &__car
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: 225px
+
+
+
+  
+
+
+
+
+
+
+
+
